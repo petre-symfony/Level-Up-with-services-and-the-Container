@@ -12,6 +12,6 @@ class MarkdownTransformer {
 
   public function parse($str){
     return $this->markdownParser
-      ->transform($str);
+      ->transformMarkdown($str);
   }
 }
